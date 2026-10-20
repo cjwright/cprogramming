@@ -2,12 +2,14 @@
 
 int main()
 {
-
-	long nc;
+	
+	double nc;
 
 	nc = 0;
-	while (getchar() !=EOF)
-		++nc;
-	printf("\n%ld\n", nc);
+
+	while (getchar() != EOF)
+	    ++nc;
+	printf("%.0f\n", nc);
+
 }
 
