@@ -1,1 +1,5 @@
+.gitignore
 a.out
+*.dSYM
+# .vscode
+line-count
